@@ -1,0 +1,240 @@
+body{
+    background: url(background.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbars
+{
+    background-color:rgba(0, 7, 10, 0.4);
+    width: 100%;
+    height: 75px;
+    margin: auto;
+    overflow: auto;
+   
+   
+
+}
+.menu{
+    height: 70px;
+    float:right;
+    width: 500px;
+    padding-top: 5px;
+  
+   
+}
+.logo
+{
+    color:rgba(243, 243, 17, 0.658);
+    font-size: 35px;
+    font-family:Arial;
+    float: left;
+    padding-left: 30px;
+    padding-top: 15px;
+    display: inline;
+}
+.icon
+{
+    width: 100px;
+    height: 70px;
+ 
+}
+li {
+    font-size: 20px;
+  }
+  .searchbtn {
+    float: right;
+    width: 40px;
+    height: 35px;
+    border-radius: 25px;
+    background:rgba(252, 248, 49, 0.603);
+    color:white ;
+    border: 0px transparent;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    border-left: none;
+    cursor: pointer;
+    padding-top: 10px;
+  }
+  .menu a {
+    display: block;
+    padding: 20px;
+    size: 20px;
+    text-decoration: none;
+    color: rgb(249, 250, 248);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+  }
+  .menu a:hover{
+      color: rgba(255, 255, 0, 0.568);
+  }
+  .menu .active
+  {
+    color: rgba(255, 255, 0, 0.568);
+  }
+  .search
+  {
+    
+    float: left;
+    padding-left:150px ;
+   
+    padding-top: 20px;
+  }
+  .searchinput
+  {
+      align-items: center;
+    width: 440px;
+    height: 35px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 0px;
+    font-size: 20px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 0, 0.788);
+  }
+  ul
+  {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .content
+  {
+      justify-content: center;
+      
+      padding-top: 30px;
+      color: white;
+      display:contents;
+      padding-left: 11%;
+      font-family:Cambria;
+  }
+  h1{
+    letter-spacing: 2px;
+      font-size: 50px;
+      
+  }
+  p{
+      padding-bottom: 24px;
+      line-height: 30px;
+      letter-spacing: 1.4px;
+      font-size: 20px;
+  }
+  
+.form{
+  margin-left: 30%;
+    height: 360px;
+    width: 390px;
+    padding:25px;
+    position: absolute;
+    color: white;
+    border-radius: 10px;
+    background:rgba(15, 15, 15, 0.616);
+}
+.form h3{
+    justify-content: center;
+    width: 220px;
+    font-family: 'Lucida Sans';
+    text-align: center;
+    margin-left: 20%;
+    
+}
+.form input
+{    
+   align-items: center;
+   
+    text-align: center;
+    width: 240px;
+    height: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 1px solid rgba(255, 255, 0, 0.788);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 20px;
+    margin-left: 16%;
+    padding: 5px;
+    background: transparent;
+   
+}
+.form .submit
+{
+    margin-left: 14%;
+    height: 40px;
+    cursor: pointer;
+    width: 255px;
+    font-size: 18px;
+    font-family:Tahoma;
+    margin-top: 5%;
+    color:white;
+    background: rgba(235, 248, 56, 0.719);
+    border-radius: 10px;
+    border: 1px solid rgba(235, 248, 56, 0.719);
+    transition: 0.4s ease;
+}
+.form .submit:hover
+{
+    color:grey;
+    background:white;
+    border: 1px solid  white;
+}
+.searchbtn:hover
+{
+  color:grey;
+  background:white;
+  border: 1px solid  white;
+}
+.form :focus
+{
+    outline: none;
+}
+.form .link
+{
+  display: inline;
+    margin-left: 25%;
+    font-family: 'Times New Roman';
+    padding-top: 20px;
+    font-size: 17px;
+}
+.form .suh
+{
+  margin-left: 37%;
+  display: inline;
+    font-family: 'Times New Roman';
+  color: rgb(57, 107, 216);
+    font-size: 17px;
+}
+.form .liw
+{
+ 
+  font-size: 17px;
+  margin-left: 38%;
+  display: inline;
+  font-family: 'Times New Roman';
+}
+.icons a
+{
+ display: inline;
+  text-decoration: none;
+  color:white;
+  padding: 10px;
+  
+}
+.icon ion-icon
+{
+  padding-top: 5px;
+ 
+  color:white;
+ 
+}
